@@ -1,302 +1,130 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal portfolio of Naman Gupta, featuring web development skills and projects.">
-    <title>Naman Gupta | Portfolio</title>
-    <link rel="stylesheet" href="port.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naman Gupta | Portfolio</title>
+  <link rel="stylesheet" href="port.css">
 </head>
 <body>
 
-    <!-- Navigation -->
-    <header class="site-header">
-        <nav class="navbar">
-            <a class="logo" href="#home">Naman<span>.</span></a>
+<header>
+  <nav>
+    <h2>NG.</h2>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#hobbies">Interests</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
 
-            <ul class="nav-list">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<section id="home" class="hero">
+  <div>
+    <p class="tag">WELCOME TO MY PORTFOLIO</p>
+    <h1>Hi, I'm <span>Naman Gupta</span></h1>
+    <h2>Student & Aspiring Developer</h2>
+    <p>I enjoy learning new technologies and building projects that solve real problems.</p>
+    <a href="#projects" class="btn">Explore My Work</a>
+  </div>
+  <div class="profile">
+    <div class="monogram">NG</div>
+  </div>
+</section>
 
-    <main>
-        <!-- Hero -->
-        <section class="hero" id="home">
-            <div class="hero-content">
-                <p class="eyebrow">PERSONAL PORTFOLIO</p>
-                <h1>Hi, I'm <span>Naman Gupta.</span></h1>
-                <h2>Student · Aspiring Web Developer</h2>
-                <p class="hero-description">
-                    I enjoy learning how technology works and turning ideas into
-                    useful digital experiences. This is a collection of my learning,
-                    skills and projects.
-                </p>
+<section id="about">
+  <h2 class="heading">About Me</h2>
+  <div class="card">
+    <p>Hello! I'm Naman Gupta, a student interested in web development and technology. I enjoy exploring new ideas, learning programming and creating useful digital projects. I am always looking for opportunities to improve my skills through practical experience.</p>
+  </div>
+</section>
 
-                <div class="hero-actions">
-                    <a class="button button-primary" href="#projects">Explore my work</a>
-                    <a class="button button-outline" href="#contact">Get in touch</a>
-                </div>
-            </div>
+<section id="education">
+  <h2 class="heading">Education</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>College Education</h3>
+      <p>College: Add Your College Name</p>
+      <p>Course: Add Your Course / Branch</p>
+      <p>Year: Add Your Current Year</p>
+    </div>
+    <div class="card">
+      <h3>School Education</h3>
+      <p>School: Add Your School Name</p>
+      <p>Qualification: Add Your Qualification</p>
+    </div>
+  </div>
+</section>
 
-            <div class="hero-profile">
-                <div class="profile-monogram">NG</div>
-                <p class="profile-caption">LEARN · BUILD · IMPROVE</p>
-            </div>
-        </section>
+<section id="skills">
+  <h2 class="heading">My Skills</h2>
+  <div class="grid">
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">Java</div>
+    <div class="card">Git & GitHub</div>
+    <div class="card">Web Development</div>
+    <div class="card">Problem Solving</div>
+  </div>
+</section>
 
-        <!-- About -->
-        <section class="section" id="about">
-            <div class="section-heading">
-                <p class="eyebrow">A LITTLE INTRODUCTION</p>
-                <h2>About me</h2>
-            </div>
+<section id="projects">
+  <h2 class="heading">My Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>FreelanceFlow</h3>
+      <p>An AI-powered assistant designed to simplify freelance accounting and invoice management.</p>
+      <a href="https://magnetic-freelance-flow-ai.base44.app" target="_blank">View Project ↗</a>
+    </div>
+    <div class="card">
+      <h3>SlothSort</h3>
+      <p>An AI file organizer that helps users organize files through suggestions and a review system.</p>
+      <a href="https://github.com/namangupta-prog/SlothSort" target="_blank">View Project ↗</a>
+    </div>
+    <div class="card">
+      <h3>Personal Portfolio</h3>
+      <p>A personal website showcasing my skills, projects and learning journey.</p>
+      <a href="https://github.com/namangupta-prog/Portfolio" target="_blank">View Repository ↗</a>
+    </div>
+  </div>
+</section>
 
-            <div class="about-panel">
-                <p>
-                    I am a student interested in technology, web development and
-                    creative problem-solving. I am building my foundation in HTML
-                    and CSS and improving through regular practice.
-                </p>
-                <p>
-                    I like exploring new ideas, working on practical projects and
-                    learning how to make websites clear, useful and easy to use.
-                </p>
-            </div>
-        </section>
+<section id="hobbies">
+  <h2 class="heading">My Interests</h2>
+  <div class="grid">
+    <div class="card">Technology</div>
+    <div class="card">Coding</div>
+    <div class="card">Learning New Skills</div>
+    <div class="card">Exploring New Ideas</div>
+  </div>
+</section>
 
-        <!-- Education -->
-        <section class="section section-muted" id="education">
-            <div class="section-heading">
-                <p class="eyebrow">MY BACKGROUND</p>
-                <h2>Education</h2>
-            </div>
+<section id="achievements">
+  <h2 class="heading">Achievements</h2>
+  <div class="card">
+    <h3>Hacktoberfest Projects</h3>
+    <p>Built projects like FreelanceFlow and SlothSort as part of my open-source learning journey.</p>
+    <a href="https://github.com/namangupta-prog" target="_blank">Visit My GitHub ↗</a>
+  </div>
+</section>
 
-            <div class="timeline">
-                <article class="timeline-item">
-                    <span class="timeline-dot"></span>
-                    <div>
-                        <p class="card-label">CURRENT STUDIES</p>
-                        <h3>Undergraduate Student</h3>
-                        <p><strong>College:</strong> Add your college name</p>
-                        <p><strong>Course:</strong> Add your course and branch</p>
-                        <p><strong>Year:</strong> Add your current year</p>
-                    </div>
-                </article>
+<section id="contact">
+  <h2 class="heading">Get In Touch</h2>
+  <div class="card contact">
+    <p>Have a project idea or want to connect? Feel free to reach out.</p>
+    <p>Email: <a href="mailto:example@gmail.com">example@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/namangupta-prog" target="_blank">namangupta-prog</a></p>
+  </div>
+</section>
 
-                <article class="timeline-item">
-                    <span class="timeline-dot"></span>
-                    <div>
-                        <p class="card-label">SCHOOL EDUCATION</p>
-                        <h3>School Studies</h3>
-                        <p><strong>School:</strong> Add your school name</p>
-                        <p><strong>Qualification:</strong> Add your qualification</p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- Skills -->
-        <section class="section" id="skills">
-            <div class="section-heading">
-                <p class="eyebrow">WHAT I'M LEARNING</p>
-                <h2>Skills</h2>
-                <p class="section-description">Tools and concepts I have been practising.</p>
-            </div>
-
-            <div class="skills-grid">
-                <article class="skill-card">
-                    <span class="skill-index">01</span>
-                    <h3>HTML</h3>
-                    <p>Building structured web pages with semantic elements.</p>
-                </article>
-                <article class="skill-card">
-                    <span class="skill-index">02</span>
-                    <h3>CSS</h3>
-                    <p>Styling layouts, typography, colours and spacing.</p>
-                </article>
-                <article class="skill-card">
-                    <span class="skill-index">03</span>
-                    <h3>Flexbox</h3>
-                    <p>Arranging page elements in flexible rows and columns.</p>
-                </article>
-                <article class="skill-card">
-                    <span class="skill-index">04</span>
-                    <h3>CSS Grid</h3>
-                    <p>Creating organised layouts with rows and columns.</p>
-                </article>
-                <article class="skill-card">
-                    <span class="skill-index">05</span>
-                    <h3>Git &amp; GitHub</h3>
-                    <p>Tracking code changes and publishing projects.</p>
-                </article>
-            </div>
-        </section>
-
-        <!-- Projects -->
-        <section class="section section-muted" id="projects">
-            <div class="section-heading">
-                <p class="eyebrow">SELECTED WORK</p>
-                <h2>Projects</h2>
-                <p class="section-description">A few projects and practical experiments.</p>
-            </div>
-
-            <div class="projects-grid">
-                <article class="project-card">
-                    <div class="project-top">
-                        <span class="project-type">AI PROJECT</span>
-                        <span class="project-number">01</span>
-                    </div>
-                    <h3>FreelanceFlow</h3>
-                    <p>
-                        An AI-powered assistant concept for organising invoices,
-                        managing receipts and reviewing spending.
-                    </p>
-                    <div class="tag-list">
-                        <span>AI</span><span>Base44</span><span>Product idea</span>
-                    </div>
-                    <a class="text-link" href="https://magnetic-freelance-flow-ai.base44.app"
-                       target="_blank" rel="noopener noreferrer">View project <span>↗</span></a>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-top">
-                        <span class="project-type">FILE ORGANISER</span>
-                        <span class="project-number">02</span>
-                    </div>
-                    <h3>SlothSort</h3>
-                    <p>
-                        A file organiser that suggests categories and lets users
-                        review suggestions before approving them.
-                    </p>
-                    <div class="tag-list">
-                        <span>AI</span><span>Base44</span><span>GitHub</span>
-                    </div>
-                    <a class="text-link" href="https://github.com/namangupta-prog/SlothSort"
-                       target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-top">
-                        <span class="project-type">WEB DEVELOPMENT</span>
-                        <span class="project-number">03</span>
-                    </div>
-                    <h3>Personal Portfolio</h3>
-                    <p>
-                        A responsive website built to present my background,
-                        skills and projects using HTML and CSS.
-                    </p>
-                    <div class="tag-list">
-                        <span>HTML</span><span>CSS</span><span>Responsive</span>
-                    </div>
-                    <a class="text-link" href="#home">Back to top <span>↑</span></a>
-                </article>
-            </div>
-        </section>
-
-        <!-- Hobbies -->
-        <section class="section" id="hobbies">
-            <div class="section-heading">
-                <p class="eyebrow">BEYOND THE SCREEN</p>
-                <h2>Interests</h2>
-            </div>
-
-            <div class="interests-list">
-                <span>Exploring technology</span>
-                <span>Building projects</span>
-                <span>Learning new skills</span>
-                <span>Problem-solving</span>
-            </div>
-        </section>
-
-        <!-- Achievements -->
-        <section class="section section-muted" id="achievements">
-            <div class="section-heading">
-                <p class="eyebrow">PROGRESS SO FAR</p>
-                <h2>Achievements &amp; activities</h2>
-            </div>
-
-            <article class="achievement-card">
-                <div class="achievement-mark">✦</div>
-                <div>
-                    <h3>Hacktoberfest Open-Source AI Challenges</h3>
-                    <p>
-                        Developed project ideas including FreelanceFlow and
-                        SlothSort as part of open-source AI challenge activities.
-                    </p>
-                </div>
-            </article>
-
-            <article class="achievement-card">
-                <div class="achievement-mark">✦</div>
-                <div>
-                    <h3>Web Development Practice</h3>
-                    <p>
-                        Building practical experience with HTML, CSS, Flexbox,
-                        Grid and responsive website layouts.
-                    </p>
-                </div>
-            </article>
-        </section>
-
-        <!-- Contact -->
-        <section class="section" id="contact">
-            <div class="section-heading">
-                <p class="eyebrow">SAY HELLO</p>
-                <h2>Contact</h2>
-                <p class="section-description">Have a question or want to connect? Send a message.</p>
-            </div>
-
-            <div class="contact-layout">
-                <div class="contact-intro">
-                    <h3>Let's connect.</h3>
-                    <p>
-                        I'm always interested in learning, sharing ideas and
-                        connecting with people who enjoy building things.
-                    </p>
-                    <p class="contact-detail"><strong>Email</strong><br> Add your email address</p>
-                    <p class="contact-detail"><strong>GitHub</strong><br>
-                        <a href="https://github.com/namangupta-prog"
-                           target="_blank" rel="noopener noreferrer">github.com/namangupta-prog</a>
-                    </p>
-                </div>
-
-                <form class="contact-form" action="#" method="get">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name"
-                           placeholder="Your name" required>
-
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email"
-                           placeholder="you@example.com" required>
-
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5"
-                              placeholder="Write your message..." required></textarea>
-
-                    <button class="button button-primary" type="submit">Submit message</button>
-                    <p class="form-note">
-                        This demo form checks required fields in your browser.
-                        It does not send or store messages.
-                    </p>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="site-footer">
-        <a class="footer-logo" href="#home">Naman<span>.</span></a>
-        <p>Designed and built by Naman Gupta</p>
-        <p class="copyright">© 2026 Naman Gupta. Personal portfolio.</p>
-        <a class="back-top" href="#home">Back to top ↑</a>
-    </footer>
+<footer>
+  <p>© 2026 Naman Gupta. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
